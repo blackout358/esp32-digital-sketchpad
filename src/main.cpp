@@ -1,6 +1,5 @@
 
 #include "canvas.h"
-// #include "colour_manager.h"
 #include "colour_selector.h"
 #include "colour_types.h"
 #include "lgfx/v1/Touch.hpp"
