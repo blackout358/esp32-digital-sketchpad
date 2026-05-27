@@ -1,0 +1,37 @@
+# --- PlatformIO / C++ ---
+.pio/
+.vscode/
+compile_commands.json
+*.o
+*.a
+*.exe
+bin/
+
+# --- KiCad ---
+# Primary backup and lock files
+**/*.bak
+**/*.kicad_pcb-bak
+**/*.sch-bak
+**/*-bak
+**/*.lck
+**/*.tmp
+
+# Project specific KiCad noise
+stacker/stacker-backups/
+stacker/stacker.net
+stacker/stacker.kicad_prl
+stacker/output
+
+# --- Fritzing ---
+# If Stacker.fzz is a temporary sketch
+# Stacker.fzz
+
+# --- OS / Misc ---
+.DS_Store
+Thumbs.db
+
+lib/README
+include/README
+test/README
+
+.history
