@@ -37,9 +37,6 @@ void setup() {
 
   lcd.setTouchCalibrate(cal_data);
 
-  for (int i = 0; i < 240; i++) {
-    lcd.drawPixel(i, i, TFT_GREEN);
-  }
   draw();
 }
 
